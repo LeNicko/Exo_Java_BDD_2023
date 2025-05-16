@@ -8,7 +8,7 @@
 <%
     String bonjour = "salut la compagnie";
     String majuscules = bonjour.toUpperCase();
-    String Plettre = bonjour.toUpperCase(1);
+    String Plettre = bonjour.toUpperCase();
    
 %>
   <h1>Résultats de traitement de la chaîne</h1>
