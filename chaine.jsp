@@ -5,6 +5,16 @@
     <title>Chaîne JSP</title>
 </head>
 <body>
+<%! 
+    public String Plettre(String input) {
+        if (input == null || input.isEmpty()) {
+            return input;
+        }
+        String first = input.substring(0, 1).toUpperCase();
+        String rest  = input.substring(1);
+        return first + rest;
+    }
+%>
 <%
     String bonjour = "salut la compagnie";
     String majuscules = bonjour.toUpperCase();
